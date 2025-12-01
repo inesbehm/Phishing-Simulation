@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Informationsseite – IT-Sicherheit</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #FFD8EA;
+            color: #0E2A47;
+        }
+
+        header {
+            background: linear-gradient(90deg, #FF9AAE, #F6C0D5);
+            padding: 30px;
+            text-align: center;
+            color: #0E2A47;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: #FFFFFF;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.08);
+        }
+
+        h1 {
+            color: #0E2A47;
+        }
+
+        p {
+            line-height: 1.6;
+            font-size: 16px;
+        }
+
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            color: #425F8A;
+            font-size: 14px;
+        }
+
+        .counter {
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Informationsseite zur IT-Sicherheit</h1>
+</header>
+
+<div class="container">
+    <p>
+        Willkommen auf dieser kurzen Informationsseite zu Themen der IT-Sicherheit.
+        Der sichere Umgang mit E-Mails, Links und digitalen Inhalten gewinnt zunehmend
+        an Bedeutung – sowohl im beruflichen als auch im privaten Bereich.
+    </p>
+
+    <p>
+        Diese Seite stellt einige grundlegende Hinweise bereit und dient dazu,
+        das Bewusstsein für digitale Sicherheitsrisiken zu stärken.
+        Vielen Dank für Ihr Interesse.
+    </p>
+
+    <p>
+        Bei Fragen oder Unsicherheiten rund um IT-Sicherheit stehen in der Verwaltung
+        entsprechende Ansprechpartnerinnen und Ansprechpartner zur Verfügung.
+    </p>
+
+    <div class="counter">
+        <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://DEINE-URL.github.io&count_bg=%23FF9AAE&title_bg=%230E2A47&icon=&icon_color=%23FFFFFF&title=Besuche&edge_flat=false"/>
+    </div>
+</div>
+
+<footer>
+    © Verwaltung · IT-Sicherheit · 2025  
+</footer>
+
+</body>
+</html>
