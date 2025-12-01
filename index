@@ -65,23 +65,20 @@
 
 <header>
     <!-- Logo einfügen -->
-    <img src="assets/logo.png" alt="Logo">
-    <h1>Informationsseite zur IT-Sicherheit</h1>
+    <img src="Logo.jpg" alt="Logo">
+    <h1>Ups! Das war knapp! Sie haben gerade auf einen Test-Link geklickt- 
+        aber keine Sorge, das ist nur eine Übung!</h1>
 </header>
 
 <div class="container">
     <p>
-        Willkommen auf dieser Informationsseite rund um das Thema IT-Sicherheit.
-        Der sichere Umgang mit E-Mails, Links und digitalen Inhalten gewinnt zunehmend
-        an Bedeutung – sowohl im beruflichen als auch im privaten Alltag.
+        Willkommen auf dieser Informationsseite zur Phishing-Simulation im Rahmen 
+        meiner Bachelorarbeit "Akzeptanz und Wirksamkeit von Phishing-Simulationen 
+        im Verwaltungskontext: Eine explorative Untersuchung anhand des Technology 
+        Acceptance Model (TAM).
     </p>
 
-    <p>
-        Diese Seite stellt einige grundlegende Hinweise bereit und dient dazu,
-        das Bewusstsein für digitale Sicherheitsrisiken zu stärken.
-        Vielen Dank für Ihr Interesse.
-    </p>
-
+    
     <p>
         Bei Fragen rund um IT-Sicherheit stehen innerhalb der Verwaltung
         entsprechende Ansprechpartnerinnen und Ansprechpartner zur Verfügung.
@@ -91,7 +88,7 @@
         Hinweis nach DSGVO:<br>
         Es werden auf dieser Seite keine personenbezogenen Daten erhoben oder gespeichert.
         Der Seitenaufruf wird nicht protokolliert. Die Auswertung erfolgt anonym
-        im Rahmen einer wissenschaftlichen Untersuchung.
+        im Rahmen einer ABSCHLUSSARBEIT an der IU Internationale Hochschule GmbH.
     </div>
 </div>
 
