@@ -13,53 +13,67 @@
 
         header {
             background: linear-gradient(90deg, #FF9AAE, #F6C0D5);
-            padding: 30px;
+            padding: 40px 20px;
             text-align: center;
-            color: #0E2A47;
+        }
+
+        header img {
+            width: 140px;
+            height: auto;
+            margin-bottom: 10px;
         }
 
         .container {
-            max-width: 800px;
+            max-width: 850px;
             margin: 40px auto;
             background: #FFFFFF;
-            padding: 30px;
+            padding: 35px;
             border-radius: 12px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.08);
+            box-shadow: 0 0 12px rgba(0,0,0,0.08);
         }
 
         h1 {
             color: #0E2A47;
+            margin-bottom: 10px;
         }
 
         p {
             line-height: 1.6;
             font-size: 16px;
+            margin-bottom: 20px;
         }
 
         footer {
             margin-top: 40px;
+            padding: 20px;
             text-align: center;
             color: #425F8A;
             font-size: 14px;
         }
 
-        .counter {
-            margin-top: 20px;
-            text-align: center;
+        .note {
+            margin-top: 30px;
+            padding: 15px;
+            background: #F6C0D5;
+            border-left: 4px solid #0E2A47;
+            font-size: 14px;
+            color: #0E2A47;
         }
     </style>
 </head>
 <body>
 
 <header>
+    <!-- Logo einfügen -->
+    <img src="assets/logo.png" alt="Logo">
     <h1>Informationsseite zur IT-Sicherheit</h1>
 </header>
 
 <div class="container">
     <p>
-        Willkommen auf dieser kurzen Informationsseite zu Themen der IT-Sicherheit.
+        Willkommen auf dieser Informationsseite rund um das Thema IT-Sicherheit.
         Der sichere Umgang mit E-Mails, Links und digitalen Inhalten gewinnt zunehmend
-        an Bedeutung – sowohl im beruflichen als auch im privaten Bereich.
+        an Bedeutung – sowohl im beruflichen als auch im privaten Alltag.
     </p>
 
     <p>
@@ -69,18 +83,22 @@
     </p>
 
     <p>
-        Bei Fragen oder Unsicherheiten rund um IT-Sicherheit stehen in der Verwaltung
+        Bei Fragen rund um IT-Sicherheit stehen innerhalb der Verwaltung
         entsprechende Ansprechpartnerinnen und Ansprechpartner zur Verfügung.
     </p>
 
-    <div class="counter">
-        <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://DEINE-URL.github.io&count_bg=%23FF9AAE&title_bg=%230E2A47&icon=&icon_color=%23FFFFFF&title=Besuche&edge_flat=false"/>
+    <div class="note">
+        Hinweis nach DSGVO:<br>
+        Es werden auf dieser Seite keine personenbezogenen Daten erhoben oder gespeichert.
+        Der Seitenaufruf wird nicht protokolliert. Die Auswertung erfolgt anonym
+        im Rahmen einer wissenschaftlichen Untersuchung.
     </div>
 </div>
 
 <footer>
-    © Verwaltung · IT-Sicherheit · 2025  
+    © Verwaltung · IT-Sicherheit · 2025
 </footer>
 
 </body>
 </html>
+
